@@ -4,7 +4,8 @@
   "description": "A differential serving middleware for express-static-middleware. Allows you to serve ES2015 to those who support it & ES5 to those who don't.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec --bail --check-leaks test/"
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-debug": "DEBUG=differential-serve mocha --reporter spec --bail --check-leaks test/"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "supertest": "1.1.0"
   },
   "dependencies": {
+    "debug": "^2.6.4",
     "ua-parser": "^0.3.5"
   }
 }
