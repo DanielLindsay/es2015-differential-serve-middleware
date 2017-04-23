@@ -1,0 +1,24 @@
+{
+  "name": "es2015-differential-serve-middleware",
+  "version": "1.0.0",
+  "description": "A differential serving middleware for express-static-middleware. Allows you to serve ES2015 to those who support it & ES5 to those who don't.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-cotton/es2015-differential-serve-middleware.git"
+  },
+  "keywords": [
+    "express",
+    "static",
+    "middleware"
+  ],
+  "author": "Daniel Cotton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daniel-cotton/es2015-differential-serve-middleware/issues"
+  },
+  "homepage": "https://github.com/daniel-cotton/es2015-differential-serve-middleware#readme"
+}

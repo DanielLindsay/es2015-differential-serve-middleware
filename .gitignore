@@ -3,6 +3,9 @@ logs
 *.log
 npm-debug.log*
 
+# JetBrains
+.idea
+
 # Runtime data
 pids
 *.pid
