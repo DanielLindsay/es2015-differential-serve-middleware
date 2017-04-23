@@ -8,7 +8,14 @@ var debug = require('debug')('differential-serve');
  * @param es2015dir - the directory name/path for es2015 code (from base path)
  * @param es5dir - the directory name/path for es5 code (from base path)
  */
-module.exports = function (es2015dir = 'es2015', es5dir = 'es5') {
+module.exports = function (es2015dir, es5dir) {
+
+  if (!es2015dir) {
+    es2015dir = 'es2015';
+  }
+  if (!es5dir) {
+    es5dir = 'es5';
+  }
 
   var edgeUAParse = /(?:\b(MS)?IE\s+|\bTrident\/7\.0;.*\s+rv:|\bEdge\/)(\d+)/;
    
