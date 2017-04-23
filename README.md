@@ -1,4 +1,4 @@
-# es2015-differential-serve
+# es2015-differential-serve-middleware
 A differential serving middleware for express-static-middleware. Allows you to serve ES2015 to those who support it &amp; ES5 to those who don't.
 
 Quite useful for WebComponent projects, as with the V1 spec you must differentially serve ES5 and ES2015 to browsers that support each.
