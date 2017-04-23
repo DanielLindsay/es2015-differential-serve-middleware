@@ -1,4 +1,4 @@
-
+'use strict';
 const assert = require('assert');
 const http = require('http');
 const path = require('path');
@@ -6,7 +6,7 @@ const request = require('supertest');
 const serveStatic = require('serve-static-middleware');
 const differentialServeMiddleware = require('..');
 
-let fixtures = path.join(__dirname, '/fixtures');
+var fixtures = path.join(__dirname, '/fixtures');
 
 describe('integration', function () {
 
