@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/daniel-cotton/es2015-differential-serve-middleware/issues"
   },
-  "homepage": "https://github.com/daniel-cotton/es2015-differential-serve-middleware#readme"
+  "homepage": "https://github.com/daniel-cotton/es2015-differential-serve-middleware#readme",
+  "devDependencies": {
+    "serve-static-middleware": "^1.12.1"
+  },
+  "dependencies": {
+    "ua-parser": "^0.3.5"
+  }
 }
