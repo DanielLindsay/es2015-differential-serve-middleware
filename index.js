@@ -1,3 +1,5 @@
+'use strict';
+
 var uaParser = require('ua-parser');
 var debug = require('debug')('differential-serve');
 
