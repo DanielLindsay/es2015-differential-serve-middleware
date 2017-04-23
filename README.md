@@ -1,4 +1,8 @@
 # es2015-differential-serve-middleware
+
+[![NPM Version][npm-image]][npm-url]
+[![Linux Build][travis-image]][travis-url]
+
 A differential serving middleware for express-static-middleware. Allows you to serve ES2015 to those who support it &amp; ES5 to those who don't.
 
 Quite useful for WebComponent projects, as with the V1 spec you must differentially serve ES5 and ES2015 to browsers that support each.
@@ -51,3 +55,8 @@ We serve ES2015 to all of the below browsers, ES5 to all others.
  - Safari (Desktop) 10+ 
  - Firefox 51+ 
  - Edge 14+ 
+
+[npm-image]: https://img.shields.io/npm/v/serve-static.svg
+[npm-url]: https://www.npmjs.com/package/es2015-differential-serve-middleware
+[travis-image]: https://img.shields.io/travis/daniel-cotton/serve-static-middleware/master.svg?label=linux
+[travis-url]: https://travis-ci.org/daniel-cotton/es2015-differential-serve-middleware
