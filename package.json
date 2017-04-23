@@ -4,7 +4,7 @@
   "description": "A differential serving middleware for express-static-middleware. Allows you to serve ES2015 to those who support it & ES5 to those who don't.",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "mocha --reporter spec --bail --check-leaks test/"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/daniel-cotton/es2015-differential-serve-middleware#readme",
   "devDependencies": {
-    "serve-static-middleware": "^1.12.1"
+    "serve-static-middleware": "^1.12.1",
+    "mocha": "2.5.3",
+    "supertest": "1.1.0"
   },
   "dependencies": {
     "ua-parser": "^0.3.5"

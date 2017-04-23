@@ -25,6 +25,6 @@ function parseUA(ua, es2015dir, es5dir) {
  */
 module.exports = function (es2015dir = 'es2015', es5dir = 'es5') {
   return function (request, response, next, options) {
-    options.root = options.root + parseUA(req.headers['user-agent'], es2015dir, es5dir);
+    options.root = options.root + parseUA(request.headers['user-agent'], es2015dir, es5dir);
   }
 };
