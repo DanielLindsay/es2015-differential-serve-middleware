@@ -29,7 +29,7 @@ const differentialServeMiddleware = require('es2015-differential-serve-middlewar
   the parameters are optional.
   
   e.g.
-/*
+*/
 serveStatic(dir, opts, [differentialServeMiddleware('es2015', 'es5')])
 ```
 
